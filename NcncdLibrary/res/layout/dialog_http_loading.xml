@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 当前屏幕网络请求dialog -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_200"
+    android:layout_height="@dimen/dimen_130"
+    android:background="@drawable/shape_bkg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        style="@style/dialog_http_loading_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDuration="1000"/>
+
+    <TextView
+        android:id="@+id/tv_dialog_http_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:textColor="@color/color_595757"
+        android:textSize="@dimen/text_size_14"/>
+
+</LinearLayout>

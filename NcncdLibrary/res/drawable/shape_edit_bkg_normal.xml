@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <!--&lt;!&ndash; solid指定形状的填充色，只有android:color一个属性 &ndash;&gt;-->
+    <!--<solid android:color="#C0C0C0" />-->
+
+    <!-- stroke设置描边 -->
+    <stroke
+        android:width="@dimen/dimen_0.5"
+        android:color="@color/color_C0C0C0"/>
+
+    <!--&lt;!&ndash; corners设置圆角，只适用于rectangle &ndash;&gt;-->
+    <!--<corners android:radius="5dp" />-->
+
+</shape>
