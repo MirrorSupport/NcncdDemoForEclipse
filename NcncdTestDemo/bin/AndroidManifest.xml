@@ -84,6 +84,11 @@
             android:screenOrientation="portrait">
         </activity>
         
+        <!--配置接口地址-->
+        <meta-data
+            android:name="NCNCD_HTTP_URL"
+            android:value="http://118.190.93.145:8026"/>
+
        <!--设置appKey、appSecret-->
         <meta-data
             android:name="NCNCD_APPKEY"
